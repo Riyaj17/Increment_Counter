@@ -1,0 +1,40 @@
+/* @import url("https://fontawesome.com/icons/mug-hot?f=classic&s=solid"); */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Mulish" , sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: rgb(31, 28, 53);
+    display: grid;
+    place-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+}
+i{
+    color:white;
+   
+}
+.counter-container{
+    font-size: 20px;
+    font-family: inherit;
+    font-weight: 500px;
+    margin: 50px;
+}
+span{
+    font-weight: bold;
+    margin: 2px;
+    padding: 5px;
+    color: whitesmoke;
+}
+.counter{
+    font-size: 80px;
+    color: rgb(193, 193, 73);
+}
